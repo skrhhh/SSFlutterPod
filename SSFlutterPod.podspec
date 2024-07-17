@@ -41,8 +41,10 @@ TODO: Add long description of the pod here.
   # s.dependency 'AFNetworking', '~> 2.3'
 
   s.static_framework = true
-  p = Dir::open("ios_frameworks")
-  arr = Array.new
-  arr.push('ios_frameworks/*.framework')
-  s.ios.vendored_frameworks = arr
+  
+  # Include all frameworks in the ios_frameworks directory
+  s.ios.vendored_frameworks = 'ios_frameworks/*.framework'
+  
+  s.dependency 'Flutter'
+  s.dependency 'FlutterPluginRegistrant'
 end
