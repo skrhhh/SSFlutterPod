@@ -40,9 +40,7 @@ TODO: Add long description of the pod here.
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 
-  s.static_framework = true
-  p = Dir::open("ios_frameworks")
-  arr = Array.new
-  arr.push('ios_frameworks/*.framework')
-  s.ios.vendored_frameworks = arr
+  s.vendored_frameworks = 'ios_frameworks/*.framework'
+  s.dependency 'Flutter'
+  s.dependency 'FlutterPluginRegistrant'
 end
