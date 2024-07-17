@@ -1,0 +1,6 @@
+use_frameworks!
+target 'SSFlutterPod_Tests' do
+  pod 'SSFlutterPod', :path => '../'
+  
+  
+end

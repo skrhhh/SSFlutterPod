@@ -1,0 +1,22 @@
+{
+  "name": "SSFlutterPod",
+  "version": "0.1.0",
+  "summary": "A short description of SSFlutterPod.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/wuzhiwei/SSFlutterPod",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wuzhiwei": "735596553@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/wuzhiwei/SSFlutterPod.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "SSFlutterPod/Classes/**/*"
+}
