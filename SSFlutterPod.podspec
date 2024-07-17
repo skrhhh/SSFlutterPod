@@ -40,6 +40,6 @@ TODO: Add long description of the pod here.
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 
-  s.vendored_frameworks = 'ios_frameworks/*.framework'
+  s.vendored_frameworks = 'SSFlutterPod/ios_frameworks/*.framework'
   s.dependency 'Flutter'
 end
