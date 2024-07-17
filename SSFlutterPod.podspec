@@ -46,5 +46,4 @@ TODO: Add long description of the pod here.
   s.ios.vendored_frameworks = 'ios_frameworks/*.framework'
   
   s.dependency 'Flutter'
-  s.dependency 'FlutterPluginRegistrant'
 end
