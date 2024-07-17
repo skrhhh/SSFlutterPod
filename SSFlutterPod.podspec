@@ -41,6 +41,5 @@ TODO: Add long description of the pod here.
   # s.dependency 'AFNetworking', '~> 2.3'
 
   s.vendored_frameworks = 'SSFlutterPod/ios_frameworks/*.framework'
-  s.dependency 'Flutter', '3.13.0'
 
 end
